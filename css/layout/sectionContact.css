@@ -1,14 +1,15 @@
 .contactSection {
+	padding-bottom: 5vh;
 	background-color: #ffffffa8;
 }
 
 .contactSection .contactContainer {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
 }
 
 .textContainer p {
+	padding-bottom: 0;
 	text-align: center;
 }
 

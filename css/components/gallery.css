@@ -28,7 +28,9 @@
 .gallery img {
 	margin: 0 5px 40px 5px;
 	width: 300px;
-	height: auto;
+	height: 300px;
+	object-fit: cover;
+	object-position: 50% 50%;
 	cursor: zoom-in;
 }
 
