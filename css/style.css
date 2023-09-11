@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+i.fas {
+	color: #fbfbfb;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.commonHeader {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.commonHeader h1 {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 20px 0;
+	width: 100%;
+	color: #fbfbfb;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+main {
+	background-color: #ddcda6;
+}
+
+main > * {
+	display: flex;
+	flex-direction: column;
+}
+
+h2, h3 {
+	margin: 40px auto;
+	color: #c36a2d;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+.commonSection p {
+	font-size: 22px;
+	padding: 0 5vh 2vh 5vh;
+	text-align: justify;
+}
+
+.slick-track {
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (min-width: 760px) {
+	.commonHeader h1 {
+		font-size: 55px;
+	}
+
+	.commonSection p {
+		font-size: 24px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.commonSection p {
+		padding: 0 8vh 4vh 8vh;
+	}
+}

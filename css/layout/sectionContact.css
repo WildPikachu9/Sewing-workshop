@@ -1,0 +1,29 @@
+.contactSection {
+	background-color: #ffffffa8;
+}
+
+.contactSection .contactContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.textContainer p {
+	text-align: center;
+}
+
+p > a {
+	color: #c36a2d;
+    text-decoration: none;
+}
+
+p > a:hover {
+	color: #000;
+}
+
+@media screen and (min-width: 1024px) {
+	.contactSection .contactContainer {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}

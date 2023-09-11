@@ -1,0 +1,74 @@
+.clothesSection {
+	padding-bottom: 5vh;
+}
+
+.clothesSection,
+.clothesContainer {
+	align-items: center;
+}
+
+.clothesContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 0 5vh 0 5vh;
+}
+
+.itemList {
+	padding: 2vh 10vh 0 10vh;
+}
+
+.itemList li {
+	font-size: 20px;
+}
+
+.gallery {
+	width: 80vw;
+}
+
+.gallery img {
+	margin: 0 5px 40px 5px;
+	width: 300px;
+	height: auto;
+	cursor: zoom-in;
+}
+
+.zoomBox {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	transition: transform 0.3s;
+}
+
+.zoomBox img {
+	max-width: 95%;
+	max-height: 95%;
+	cursor: zoom-in;
+}
+
+.zoomBox i {
+	position: absolute;
+	top: 3vh;
+	right: 5vh;
+	padding: 5px 8px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.9);
+	font-size: 20px;
+	text-align: center;
+}
+
+i.closeBtn:hover {
+	background-color: rgba(230, 18, 18, 0.7);
+}
+
+@media screen and (min-width: 760px) {
+	.itemList li {
+		font-size: 22px;
+	}
+}
