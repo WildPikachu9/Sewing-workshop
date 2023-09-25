@@ -10,7 +10,6 @@
 .clothesContainer {
 	display: flex;
 	flex-direction: column;
-	padding: 0 5vh 0 5vh;
 }
 
 .itemList {
@@ -56,8 +55,8 @@
 
 .zoomBox i {
 	position: absolute;
-	top: 3vh;
-	right: 5vh;
+	top: 1vh;
+	right: 1vh;
 	padding: 5px 8px;
 	border-radius: 50%;
 	background-color: rgba(0, 0, 0, 0.9);
@@ -72,5 +71,10 @@ i.closeBtn:hover {
 @media screen and (min-width: 760px) {
 	.itemList li {
 		font-size: 22px;
+	}
+
+	.zoomBox img {
+		max-width: 90%;
+		max-height: 85%;
 	}
 }
