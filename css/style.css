@@ -22,7 +22,6 @@ i.fas {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: scroll;
 }
 
 .commonHeader h1 {
@@ -92,9 +91,6 @@ h3 {
 }
 
 @media screen and (min-width: 1024px) {
-	.commonSection {
-		background-attachment: fixed;
-	}
 
 	.commonSection p {
 		padding: 0 8vh 4vh 8vh;
